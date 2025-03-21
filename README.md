@@ -85,9 +85,7 @@ ox.plot_graph(G)
 ```
 This ensures realistic road network integration for better traffic simulation.
 
-##Contributors
 
-Your Name - Rithik
 
 
 ## License
