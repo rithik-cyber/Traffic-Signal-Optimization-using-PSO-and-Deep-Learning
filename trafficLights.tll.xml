@@ -1,0 +1,16 @@
+<additional>
+    <tlLogic id="n1" type="static" programID="1" offset="0">
+        <phase duration="30" state="GrGr"/> <!-- Green for both directions -->
+        <phase duration="5" state="yryr"/> <!-- Yellow phase -->
+        <phase duration="30" state="rGrG"/> <!-- Green for perpendicular direction -->
+        <phase duration="5" state="ryry"/> <!-- Yellow phase -->
+    </tlLogic>
+
+    <tlLogic id="n3" type="static" programID="1" offset="0">
+        <phase duration="30" state="GrGr"/>
+        <phase duration="5" state="yryr"/>
+        <phase duration="30" state="rGrG"/>
+        <phase duration="5" state="ryry"/>
+    </tlLogic>
+</additional>
+

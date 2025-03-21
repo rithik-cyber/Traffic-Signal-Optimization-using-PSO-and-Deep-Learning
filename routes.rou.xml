@@ -1,0 +1,13 @@
+<routes>
+    <vType id="car" accel="1.0" decel="5.0" length="5" maxSpeed="30"/>
+
+    <route id="r1" edges="e1 e2 e3 e4"/>
+    <route id="r2" edges="e5 e6 e2"/>  <!-- Fixed connection issue -->
+
+    <vehicle id="v1" type="car" route="r1" depart="0"/>
+    <vehicle id="v2" type="car" route="r2" depart="5"/>
+    <vehicle id="v3" type="car" route="r1" depart="10"/>
+    <vehicle id="v4" type="car" route="r2" depart="15"/>
+</routes>
+
+
